@@ -1,0 +1,15 @@
+name: vm-profile
+title: InSpec Profile
+maintainer: James Noonan
+copyright: James Noonan
+copyright_email: james.c.noonan@gmail.com
+license: Apache-2.0
+summary: GCP VM Inspec Tests
+version: 0.1.0
+supports:
+  platform: os
+depends:
+  - name: gcp-resources
+    url: https://github.com/inspec/inspec-gcp/archive/master.tar.gz
+supports:
+  - platform: gcp
